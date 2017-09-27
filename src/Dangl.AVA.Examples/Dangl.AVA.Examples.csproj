@@ -5,4 +5,11 @@
     <TargetFramework>net461</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dangl.AVA" Version="1.4.7" />
+    <PackageReference Include="Dangl.AVA.Converter" Version="1.4.7" />
+    <PackageReference Include="Dangl.AVA.Converter.Excel" Version="1.4.4" />
+    <PackageReference Include="Dangl.GAEB" Version="1.4.6" />
+  </ItemGroup>
+
 </Project>
