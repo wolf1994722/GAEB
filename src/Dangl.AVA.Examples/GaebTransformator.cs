@@ -18,19 +18,39 @@ namespace Dangl.AVA.Examples
 
         public void TransformGaeb()
         {
-            var readGaeb = ReadInputGaebFile();
-            _readProject = Converter.Converter.ConvertFromGaeb(readGaeb);
+            ReadInputFile();
             RemovePricesIfRequested();
             TransformProject();
         }
 
-        private GAEB_File ReadInputGaebFile()
+        private void ReadInputFile()
+        {
+            if (_options.InputFilePath.ToUpperInvariant().EndsWith("xlsx".ToUpperInvariant()))
+            {
+                ReadInputExcelFile();
+            }
+            else
+            {
+                ReadInputGaebFile();
+            }
+        }
+
+        private void ReadInputGaebFile()
         {
             var filePath = Path.GetFullPath(_options.InputFilePath);
             using (var fileStream = File.OpenRead(filePath))
             {
                 var gaebFile = GAEBReader.ReadGaeb(fileStream);
-                return gaebFile;
+                _readProject = Converter.Converter.ConvertFromGaeb(gaebFile);
+            }
+        }
+
+        private void ReadInputExcelFile()
+        {
+            var filePath = Path.GetFullPath(_options.InputFilePath);
+            using (var fileStream = File.OpenRead(filePath))
+            {
+                _readProject = Converter.Excel.Reader.ReadStream(fileStream);
             }
         }
 
