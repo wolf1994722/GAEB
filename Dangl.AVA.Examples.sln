@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{350B3AB5-03EC-4E3E-911F-CE43E07B82E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dangl.AVA.Examples.Tests", "test\Dangl.AVA.Examples.Tests\Dangl.AVA.Examples.Tests.csproj", "{94B38F95-8499-470C-A806-F94B6B0A268B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,12 +26,17 @@ Global
 		{F994C960-74FE-4D3D-95B3-121DFD213C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F994C960-74FE-4D3D-95B3-121DFD213C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F994C960-74FE-4D3D-95B3-121DFD213C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B38F95-8499-470C-A806-F94B6B0A268B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B38F95-8499-470C-A806-F94B6B0A268B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B38F95-8499-470C-A806-F94B6B0A268B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B38F95-8499-470C-A806-F94B6B0A268B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F994C960-74FE-4D3D-95B3-121DFD213C5B} = {488A4086-8557-4E76-BCDC-C20C3F0548E2}
+		{94B38F95-8499-470C-A806-F94B6B0A268B} = {350B3AB5-03EC-4E3E-911F-CE43E07B82E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B863A298-EB91-48BF-9E81-E319E9C18E0D}

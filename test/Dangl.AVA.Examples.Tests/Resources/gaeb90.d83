@@ -1,0 +1,46 @@
+T0                                                                        000001
+70                      Created with Dangl GAEB Tool                      000002
+70                    Copyright 2013 - 2016 Georg Dangl                   000003
+70                              blog.dangl.me                             000004
+70                Version 1.2.3.0 (Built: 23.04.2016 18:30)               000005
+T9                                                                        000006
+00        83L                                                 1122PPP0090 000007
+01This is an example GAEB project         03.05.16                        000008
+02Example Project                                                         000009
+03Bob the Builder                                                         000010
+062Labour        Material      Gear                                       000011
+08?     Euro                                                              000012
+20                                                                        000013
+26   Project Information                                                  000014
+26   This is a small sample project to illustrate the usage               000015
+26   of the GAEB converter at https://blog.dangl.me                       000016
+1101       N                                                              000017
+12Main Building                                                           000018
+110101     N                                                              000019
+12                                                                        000020
+210101001  NNN         00000001000Flat                                    000021
+25Site Preparation                                                        000022
+26   Preparation of the site before construction start.                   000023
+310101                                                                    000024
+110102     N                                                              000025
+12Construction                                                            000026
+210102001  NNN       X            mü                                      000027
+25Excavation                                                              000028
+26   Excavation for the building pit.                                     000029
+210102002  NNN         00000600000mü                                      000030
+25Filling                                                                 000031
+26   Filling of excavated building pit with proper material               000032
+26   for foundation.                                                      000033
+210102003  NNN       X            mü                                      000034
+25Soil Removal                                                            000035
+26   Removal of unusable excavated soil from the                          000036
+26   construction site.                                                   000037
+210102004  NNN         00000800000mý                                      000038
+25Conrete Slabs                                                           000039
+26   Concrete slabs for the building construction.                        000040
+210102005  NNN         00000240000mý                                      000041
+25Concrete Walls                                                          000042
+26   Concrete walls for the building construction.                        000043
+310102                                                                    000044
+3101                                                                      000045
+99                                                                   00006000046
