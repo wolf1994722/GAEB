@@ -1,5 +1,7 @@
 # Dangl.AVA.Examples
 
+> An online version of the converter is freely accessible at [my blog](https://blog.dangl.me/gaeb-converter/)
+
 This is a _demonstration_ library intended to show the usage of the Dangl.AVA and Dangl.GAEB projects.
 To build this solution, you need to copy four packages into the `./packages` folder, relative to the root of this project:
 * Dangl.AVA
