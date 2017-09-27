@@ -36,12 +36,11 @@ namespace Dangl.AVA.Examples
 
         private void RemovePricesIfRequested()
         {
-            if (_options.KeepPrices)
+            if (_options.StripPrices)
             {
-                return;
+                var priceStripper = new PriceStripper(_readProject);
+                priceStripper.StripPrices();
             }
-            var priceStripper = new PriceStripper(_readProject);
-            priceStripper.StripPrices();
         }
 
         private void TransformProject()

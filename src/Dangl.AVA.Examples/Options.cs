@@ -10,8 +10,8 @@ namespace Dangl.AVA.Examples
         [Option('o', "output", Required = true, HelpText = "Relative or absolute path to the output file")]
         public string OutputFilePath { get; set; }
 
-        [Option('k', "keepPrices", Required = false, Default = true, HelpText = "Keeps prices in the output")]
-        public bool KeepPrices { get; set; }
+        [Option('s', "stripPrices", Required = false, Default = false, HelpText = "Remove prices from the output")]
+        public bool StripPrices { get; set; }
 
         [Option('t', "target", Required = true, HelpText = "The transformation target")]
         public Target Target { get; set; }
