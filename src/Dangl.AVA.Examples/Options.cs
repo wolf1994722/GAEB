@@ -13,7 +13,7 @@ namespace Dangl.AVA.Examples
         [Option('s', "stripPrices", Required = false, Default = false, HelpText = "Remove prices from the output")]
         public bool StripPrices { get; set; }
 
-        [Option('t', "target", Required = true, HelpText = "The transformation target")]
+        [Option('t', "target", Required = true, HelpText = "The transformation target. Values: Gaeb90, Gaeb2000, GaebXml or Excel")]
         public Target Target { get; set; }
     }
 }
