@@ -15,5 +15,8 @@ namespace Dangl.AVA.Examples
 
         [Option('t', "target", Required = true, HelpText = "The transformation target. Values: Gaeb90, Gaeb2000, GaebXml or Excel")]
         public Target Target { get; set; }
+
+        [Option('e', "excludeBranding", Required = false, Default = false, HelpText = "Exclude branding comments in serialized GAEB files")]
+        public bool ExcludeBranding { get; set; }
     }
 }
