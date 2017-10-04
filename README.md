@@ -16,7 +16,7 @@ This project is intended to demonstrate the usage of the Dangl.AVA and Dangl.GAE
 
 The console application is launched via
 
-    Dangl.AVA.Examples.exe -i <InputFile> -o <OutputFile> -t <Target> [-s] [-e]
+    Dangl.AVA.Examples.exe -i <InputFile> -o <OutputFile> -t <Target> [-s] [-e] [-p]
 
 | Parameter | Description |
 |-----------|-------------|
@@ -25,6 +25,7 @@ The console application is launched via
 | -t | Transformation target, can be either `Excel`, `Gaeb90`, `Gaeb2000` or `GaebXml`|
 | -s | Optional, if included, all prices, taxes and deductions are stripped from the output|
 | -e | Optional, if included, the output files will not have a comment with a branding of the library |
+| -p | Optional, if included, prints all positions found in the GAEB file to the console |
 
 ## Additional Samples
 

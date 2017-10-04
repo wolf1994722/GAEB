@@ -20,6 +20,7 @@ namespace Dangl.AVA.Examples
         {
             ReadInputFile();
             RemovePricesIfRequested();
+            PrintPositionsIfRequested();
             TransformProject();
         }
 
@@ -60,6 +61,15 @@ namespace Dangl.AVA.Examples
             {
                 var priceStripper = new PriceStripper(_readProject);
                 priceStripper.StripPrices();
+            }
+        }
+
+        private void PrintPositionsIfRequested()
+        {
+            if (_options.PrintPositions)
+            {
+                var positionsPrinter = new PositionsPrinter(_readProject);
+                positionsPrinter.PrintAllPositionsToConsole();
             }
         }
 
