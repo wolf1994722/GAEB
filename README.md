@@ -36,11 +36,12 @@ such as roundtripping and simple reading of GAEB files.
 
 * Can read all GAEB90, GAEB2000 and GAEB XML files. The GAEB library includes a lot of code that can recover from errors that were found in files out in the wild
 * Hassle-free import: Just pass the `Stream` of the file to the converter, format detection and error recovery happens automatically
+* All libraries are available with both .Net and NETStandard targets, making them usable on virtually all platforms (for example on Windows, Linux, Mac and Xamarin)
 * **Dangl.GAEB** provides a native interface to all features of GAEB files, allowing native operation directly on the GAEB file
 * **Dangl.AVA** offers a unified data model that can be bi-directionally imported or exported to via **Dangl.AVA.Converter** between GAEB, Excel and Json
 * Advanced heuristics allow the preservation of most information even when converting to an earlier version of the GAEB standard
 * Complete `INotifyPropertyChanged` support in **Dangl.AVA** and event driven messaging makes it directly usable in front end applications - Set the price of an item and the whole bill of quantity is automatically updated
-* Over **97.000** tests are run automatically on every commit. The tests cover 5 frameworks (both full .Net and .Net core) and over 200 GAEB files
+* Over **97.000** tests are run automatically on every commit. The tests cover 5 frameworks (both full .Net and .Net Core) and over 200 GAEB files
 
 ## Structure
 
