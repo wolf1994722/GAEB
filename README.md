@@ -13,6 +13,8 @@ To build this solution, you need to copy four packages into the `./packages` fol
 * Dangl.AVA.Converter
 * Dangl.AVA.Converter.Excel
 
+> If you are already a customer with support contract, please see any of the packages documentation on how to set up the official NuGet feed for **DanglIT** packages.
+
 These packages are not included in this repository.
 This project is intended to demonstrate the usage of the Dangl.AVA and Dangl.GAEB libraries.
 
