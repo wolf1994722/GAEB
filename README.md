@@ -17,6 +17,7 @@ To build this solution, you need to copy four packages into the `./packages` fol
 
 These packages are not included in this repository.
 This project is intended to demonstrate the usage of the Dangl.AVA and Dangl.GAEB libraries.
+[Please get in touch with me if you are interested in the libraries](https://www.dangl-it.com/contact/?message=I%27m+interested+in+Dangl.GAEB+%26+Dangl.AVA.+Please+contact+me.).
 
 ## CLI Interface
 
@@ -47,7 +48,7 @@ such as roundtripping and simple reading of GAEB files.
 * **Dangl.AVA** offers a unified data model that can be bi-directionally imported or exported to via **Dangl.AVA.Converter** between GAEB, Excel and Json
 * Advanced heuristics allow the preservation of most information even when converting to an earlier version of the GAEB standard
 * Complete `INotifyPropertyChanged` support in **Dangl.AVA** and event driven messaging makes it directly usable in front end applications - Set the price of an item and the whole bill of quantity is automatically updated
-* Over **97.000** tests are run automatically on every commit. The tests cover 5 frameworks (both full .Net and .Net Core) and over 200 GAEB files
+* Over **120.000** tests are run automatically on every commit. The tests cover 7 frameworks (both full .Net and .Net Core) and over 200 GAEB files
 
 ## Structure
 
