@@ -39,6 +39,11 @@ The console application is launched via
 The unit test project in `test/Dangl.AVA.Examples.Tests` contains additional example code,
 such as roundtripping and simple reading of GAEB files.
 
+## GAEB Example Files
+
+You can find examples of GAEB files in the `GaebFiles` folder in the solution root directory. They are available in German **DE** or English **EN** language and come in
+all three formats - GAEB 90, GAEB 2000 and GAEB XML.
+
 ## Library Key Features
 
 * Can read all GAEB90, GAEB2000 and GAEB XML files. The GAEB library includes a lot of code that can recover from errors that were found in files out in the wild

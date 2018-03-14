@@ -1,0 +1,52 @@
+T0                                                                        000001
+70                      Created with Dangl GAEB Tool                      000002
+70                    Copyright 2013 - 2018 Georg Dangl                   000003
+70                            www.dangl-it.com                            000004
+70               Version 1.4.15.0 (Built: 11.01.2018 16:13)               000005
+T9                                                                        000006
+00        81L                                                 1122PPP0090 000007
+01                                        17.02.18                     X  000008
+02Neubau Sportheim                                                        000009
+03Georg Dangl                                                             000010
+062Stunden       Material      GerÑte                                     000011
+08?     Euro                                                              000012
+20                                                                        000013
+26   Abgabe bis 15. August                                                000014
+26   Dies ist ein Beispielprojekt                                         000015
+1101       N                                                              000016
+12HauptgebÑude                                                            000017
+110101     N                                                              000018
+12Allgemein                                                               000019
+210101001  NNN         00000001000Psch                                    000020
+230101001   0000080000  000000080000                                      000021
+25Baustelleneinrichtung                                                   000022
+26   Einrichtung der Baustelle inkl. Kran                                 000023
+310101                                                                    000024
+320101      000000080000                                                  000025
+3101                                                                      000026
+3201        000000080000                                                  000027
+110102     N                                                              000028
+12Erd- und Rohbau                                                         000029
+210102001  NNN         00000950000m¸                                      000030
+230102001   0000000900  000000855000                                      000031
+25Aushub                                                                  000032
+26   Aushub fÅr Baugrube                                                  000033
+210102002  NNN         00000600000m¸                                      000034
+230102002   0000000600  000000360000                                      000035
+25WiederverfÅllen                                                         000036
+26   WiederverfÅllen von nicht entsorgtem Material,                       000037
+26   anfÅllen an zu errichtendes GebÑude                                  000038
+210102003  NNN         00000350000m¸                                      000039
+230102003   0000001200  000000420000                                      000040
+25Entsorgung Aushub                                                       000041
+26   Entsorgung von ÅberschÅssigem Aushub, ohne                           000042
+26   Verunreinigungen                                                     000043
+210102004  NNN         00000800000m˝                                      000044
+230102004   0000004000  000003200000                                      000045
+25Decken, Stahlbeton                                                      000046
+210102005  NNN         00000240000m˝                                      000047
+230102005   0000003500  000000840000                                      000048
+25Wand, 20cm, Stahlbeton                                                  000049
+310102                                                                    000050
+320102      000005675000                                                  000051
+99000005755000       1900000006848450                                00006000052
