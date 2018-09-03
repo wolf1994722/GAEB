@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Dangl.AVA.Examples": {
+      "commandName": "Project",
+      "commandLineArgs": "-i \"$(SolutionDir)\\GaebFiles\\GAEBXML_DE.X86\" -o GaebExport -t Excel -p"
+    }
+  }
+}
