@@ -26,7 +26,7 @@ namespace Dangl.AVA.Examples
 
         private void ReadInputFile()
         {
-            if (_options.InputFilePath.ToUpperInvariant().EndsWith("xlsx".ToUpperInvariant()))
+            if (_options.InputFilePath.EndsWith("xlsx", System.StringComparison.InvariantCultureIgnoreCase))
             {
                 ReadInputExcelFile();
             }
