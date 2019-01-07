@@ -53,7 +53,7 @@ all three formats - GAEB 90, GAEB 2000 and GAEB XML.
 * **Dangl.AVA** offers a unified data model that can be bi-directionally imported or exported to via **Dangl.AVA.Converter** between GAEB, Excel and Json
 * Advanced heuristics allow the preservation of most information even when converting to an earlier version of the GAEB standard
 * Complete `INotifyPropertyChanged` support in **Dangl.AVA** and event driven messaging makes it directly usable in front end applications - Set the price of an item and the whole bill of quantity is automatically updated
-* Over **120.000** tests are run automatically on every commit. The tests cover 7 frameworks (both full .Net and .Net Core) and over 200 GAEB files
+* Over **175.000** tests are run automatically on every commit. The tests cover 7 frameworks (both full .Net and .Net Core) and over 200 GAEB files
 
 ## Structure
 
