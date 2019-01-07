@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--Created with Dangl GAEB Tool, Copyright 2013 - 2018 Georg Dangl, www.dangl-it.com, Version 1.4.15.0 (Built: 11.01.2018 16:13)-->
-<GAEB xmlns="http://www.gaeb.de/GAEB_DA_XML/DA80/3.2">
+<!--Created with Dangl GAEB Tool, Copyright 2013 - 2019 Dangl IT GmbH, www.dangl-it.com, Version 1.6.1 (Built: 02.01.2019 20:25)-->
+<GAEB xmlns="http://www.gaeb.de/GAEB_DA_XML/DA86/3.2">
   <GAEBInfo>
     <Version>3.2</Version>
     <VersDate>2013-10</VersDate>
-    <Date>2018-02-17</Date>
-    <Time>11:07:02</Time>
-    <ProgSystem>Dangl GAEB Tool - www.dangl-it.com - Version 1.4.15.0</ProgSystem>
-    <ProgName>Dangl.AVA.Converter www.dangl-it.com V1.4.17.0 ©2018</ProgName>
+    <Date>2019-01-07</Date>
+    <Time>19:36:18</Time>
+    <ProgSystem>Dangl GAEB Tool - www.dangl-it.com - Version 1.6.1</ProgSystem>
+    <ProgName>Dangl.AVA.Converter www.dangl-it.com V2.0.1 ©2019</ProgName>
   </GAEBInfo>
   <PrjInfo>
     <NamePrj>Neubau Sportheim</NamePrj>
@@ -15,9 +15,9 @@
     <CurLbl>Euro</CurLbl>
   </PrjInfo>
   <Award>
-    <DP>80</DP>
+    <DP>86</DP>
     <AwardInfo>
-      <BoQID>e9f5153c-ec4a-41c9-b242-ab6b5fc3fd02</BoQID>
+      <BoQID>0f98b339-c251-4688-b89c-67c8f33ed24d</BoQID>
       <Cur>€</Cur>
       <CurLbl>Euro</CurLbl>
     </AwardInfo>
@@ -30,9 +30,9 @@
         <Email>info@dangl-it.com</Email>
       </Address>
     </OWN>
-    <BoQ ID="ID_9529eda2-32d6-4e9c-9f55-facdd87343a1">
+    <BoQ ID="ID_f64922c3-2dcd-48da-b3ed-771eb12ad313">
       <BoQInfo>
-        <Date>2018-02-17</Date>
+        <Date>2019-01-07</Date>
         <OutlCompl>AllTxt</OutlCompl>
         <BoQBkdn>
           <Type>BoQLevel</Type>
@@ -66,7 +66,7 @@
         </Totals>
       </BoQInfo>
       <BoQBody>
-        <Remark ID="ID_9e053cce-e7ac-484f-900b-113000b8ab97">
+        <Remark ID="ID_65346b4e-fbd4-44ed-bb7a-43c4c997f149">
           <Description>
             <CompleteText>
               <ComplTSA>No</ComplTSA>
@@ -87,18 +87,18 @@
             </CompleteText>
           </Description>
         </Remark>
-        <BoQCtgy ID="ID_da7e2fe1-6313-467b-a630-a11ed3bbcc6c" RNoPart="01">
+        <BoQCtgy ID="ID_70c1d2a8-230f-4bee-b1af-04a1d34e92c6" RNoPart="01">
           <LblTx>
             <span>Hauptgebäude</span>
           </LblTx>
           <BoQBody>
-            <BoQCtgy ID="ID_aa21e69c-a0eb-43e5-8d84-c8cebbf043ba" RNoPart="01">
+            <BoQCtgy ID="ID_bc0e04c2-2f45-4fff-8484-c124831d608a" RNoPart="01">
               <LblTx>
                 <span>Allgemein</span>
               </LblTx>
               <BoQBody>
                 <Itemlist>
-                  <Item ID="ID_30f298d8-0f54-4bd4-8cdd-970ab2fe8444" RNoPart="001">
+                  <Item ID="ID_c42f2163-074b-4418-bb34-61eda0d2e5ea" RNoPart="001">
                     <Qty>1</Qty>
                     <QU>Psch.</QU>
                     <UP>800</UP>
@@ -150,120 +150,138 @@
             <TotalGross>952.00</TotalGross>
           </Totals>
         </BoQCtgy>
-        <BoQCtgy ID="ID_4b4abd6f-dbba-4d71-8e02-e72314320f91" RNoPart="02">
+        <BoQCtgy ID="ID_67a2f2cb-d3bd-4519-8814-b783da031b6d" RNoPart="02">
           <LblTx>
-            <span>Erd- und Rohbau</span>
+            <span>Bauleistungen</span>
           </LblTx>
           <BoQBody>
-            <Itemlist>
-              <Item ID="ID_952b049b-b412-4d00-99f0-d45e65693a8c" RNoPart="02" RNoIndex="1">
-                <Qty>950</Qty>
-                <QU>m³</QU>
-                <UP>9</UP>
-                <IT>8550</IT>
-                <Description>
-                  <CompleteText>
-                    <ComplTSA>No</ComplTSA>
-                    <ComplTSB>No</ComplTSB>
-                    <DetailTxt>
-                      <Text>
-                        <span>Aushub für Baugrube</span>
-                      </Text>
-                    </DetailTxt>
-                    <OutlineText>
-                      <OutlTSA>No</OutlTSA>
-                      <OutlTxt>
-                        <TextOutlTxt>
-                          <span>Aushub</span>
-                        </TextOutlTxt>
-                      </OutlTxt>
-                    </OutlineText>
-                  </CompleteText>
-                </Description>
-              </Item>
-              <Item ID="ID_7fd784b7-5fd9-41b9-858a-7a90567832ee" RNoPart="02" RNoIndex="2">
-                <Qty>600</Qty>
-                <QU>m³</QU>
-                <UP>6</UP>
-                <IT>3600</IT>
-                <Description>
-                  <CompleteText>
-                    <ComplTSA>No</ComplTSA>
-                    <ComplTSB>No</ComplTSB>
-                    <DetailTxt>
-                      <Text>
-                        <span>Wiederverfüllen von nicht entsorgtem Material, anfüllen an zu errichtendes Gebäude</span>
-                      </Text>
-                    </DetailTxt>
-                    <OutlineText>
-                      <OutlTSA>No</OutlTSA>
-                      <OutlTxt>
-                        <TextOutlTxt>
-                          <span>Wiederverfüllen</span>
-                        </TextOutlTxt>
-                      </OutlTxt>
-                    </OutlineText>
-                  </CompleteText>
-                </Description>
-              </Item>
-              <Item ID="ID_1ddc976e-0011-42d2-a575-b34a3b3eb2db" RNoPart="02" RNoIndex="3">
-                <Qty>350</Qty>
-                <QU>m³</QU>
-                <UP>12</UP>
-                <IT>4200</IT>
-                <Description>
-                  <CompleteText>
-                    <ComplTSA>No</ComplTSA>
-                    <ComplTSB>No</ComplTSB>
-                    <DetailTxt>
-                      <Text>
-                        <span>Entsorgung von überschüssigem Aushub, ohne Verunreinigungen</span>
-                      </Text>
-                    </DetailTxt>
-                    <OutlineText>
-                      <OutlTSA>No</OutlTSA>
-                      <OutlTxt>
-                        <TextOutlTxt>
-                          <span>Entsorgung Aushub</span>
-                        </TextOutlTxt>
-                      </OutlTxt>
-                    </OutlineText>
-                  </CompleteText>
-                </Description>
-              </Item>
-              <Item ID="ID_69152aa6-a6cd-49eb-a578-f2b4c0a8751c" RNoPart="02" RNoIndex="4">
-                <Qty>800</Qty>
-                <QU>m²</QU>
-                <UP>40</UP>
-                <IT>32000</IT>
-                <Description>
-                  <OutlineText>
-                    <OutlTSA>No</OutlTSA>
-                    <OutlTxt>
-                      <TextOutlTxt>
-                        <span>Decken, Stahlbeton</span>
-                      </TextOutlTxt>
-                    </OutlTxt>
-                  </OutlineText>
-                </Description>
-              </Item>
-              <Item ID="ID_56c02f0d-8c1b-46b7-bb55-64e9b8145fb0" RNoPart="02" RNoIndex="5">
-                <Qty>240</Qty>
-                <QU>m²</QU>
-                <UP>35</UP>
-                <IT>8400</IT>
-                <Description>
-                  <OutlineText>
-                    <OutlTSA>No</OutlTSA>
-                    <OutlTxt>
-                      <TextOutlTxt>
-                        <span>Wand, 20cm, Stahlbeton</span>
-                      </TextOutlTxt>
-                    </OutlTxt>
-                  </OutlineText>
-                </Description>
-              </Item>
-            </Itemlist>
+            <BoQCtgy ID="ID_0b97359b-51e1-4cd7-9158-f2c504e973f9" RNoPart="02">
+              <LblTx>
+                <span>Erd- und Rohbau</span>
+              </LblTx>
+              <BoQBody>
+                <Itemlist>
+                  <Item ID="ID_87e2e45b-af86-485c-b032-d98fb7e7423b" RNoPart="001">
+                    <Qty>950</Qty>
+                    <QU>m³</QU>
+                    <UP>9</UP>
+                    <IT>8550</IT>
+                    <Description>
+                      <CompleteText>
+                        <ComplTSA>No</ComplTSA>
+                        <ComplTSB>No</ComplTSB>
+                        <DetailTxt>
+                          <Text>
+                            <span>Aushub für Baugrube</span>
+                          </Text>
+                        </DetailTxt>
+                        <OutlineText>
+                          <OutlTSA>No</OutlTSA>
+                          <OutlTxt>
+                            <TextOutlTxt>
+                              <span>Aushub</span>
+                            </TextOutlTxt>
+                          </OutlTxt>
+                        </OutlineText>
+                      </CompleteText>
+                    </Description>
+                  </Item>
+                  <Item ID="ID_80d435cf-b968-446c-b70b-55b25e404d01" RNoPart="002">
+                    <Qty>600</Qty>
+                    <QU>m³</QU>
+                    <UP>6</UP>
+                    <IT>3600</IT>
+                    <Description>
+                      <CompleteText>
+                        <ComplTSA>No</ComplTSA>
+                        <ComplTSB>No</ComplTSB>
+                        <DetailTxt>
+                          <Text>
+                            <span>Wiederverfüllen von nicht entsorgtem Material, anfüllen an zu errichtendes Gebäude</span>
+                          </Text>
+                        </DetailTxt>
+                        <OutlineText>
+                          <OutlTSA>No</OutlTSA>
+                          <OutlTxt>
+                            <TextOutlTxt>
+                              <span>Wiederverfüllen</span>
+                            </TextOutlTxt>
+                          </OutlTxt>
+                        </OutlineText>
+                      </CompleteText>
+                    </Description>
+                  </Item>
+                  <Item ID="ID_9d085e06-87ff-49e4-8141-5c83d0b81ead" RNoPart="003">
+                    <Qty>350</Qty>
+                    <QU>m³</QU>
+                    <UP>12</UP>
+                    <IT>4200</IT>
+                    <Description>
+                      <CompleteText>
+                        <ComplTSA>No</ComplTSA>
+                        <ComplTSB>No</ComplTSB>
+                        <DetailTxt>
+                          <Text>
+                            <span>Entsorgung von überschüssigem Aushub, ohne Verunreinigungen</span>
+                          </Text>
+                        </DetailTxt>
+                        <OutlineText>
+                          <OutlTSA>No</OutlTSA>
+                          <OutlTxt>
+                            <TextOutlTxt>
+                              <span>Entsorgung Aushub</span>
+                            </TextOutlTxt>
+                          </OutlTxt>
+                        </OutlineText>
+                      </CompleteText>
+                    </Description>
+                  </Item>
+                  <Item ID="ID_039cc562-9e12-4fd2-81a5-51dd62b52e72" RNoPart="004">
+                    <Qty>800</Qty>
+                    <QU>m²</QU>
+                    <UP>40</UP>
+                    <IT>32000</IT>
+                    <Description>
+                      <OutlineText>
+                        <OutlTSA>No</OutlTSA>
+                        <OutlTxt>
+                          <TextOutlTxt>
+                            <span>Decken, Stahlbeton</span>
+                          </TextOutlTxt>
+                        </OutlTxt>
+                      </OutlineText>
+                    </Description>
+                  </Item>
+                  <Item ID="ID_a8d9e0b2-cf11-44c3-8a08-ac30daea4072" RNoPart="005">
+                    <Qty>240</Qty>
+                    <QU>m²</QU>
+                    <UP>35</UP>
+                    <IT>8400</IT>
+                    <Description>
+                      <OutlineText>
+                        <OutlTSA>No</OutlTSA>
+                        <OutlTxt>
+                          <TextOutlTxt>
+                            <span>Wand, 20cm, Stahlbeton</span>
+                          </TextOutlTxt>
+                        </OutlTxt>
+                      </OutlineText>
+                    </Description>
+                  </Item>
+                </Itemlist>
+              </BoQBody>
+              <Totals>
+                <Total>56750</Total>
+                <VAT>19.00</VAT>
+                <TotalNet>56750</TotalNet>
+                <VATPart VATPcnt="19.00">
+                  <TotalNetPart>56750</TotalNetPart>
+                  <VATAmount>10782.50</VATAmount>
+                </VATPart>
+                <VATAmount>10782.50</VATAmount>
+                <TotalGross>67532.50</TotalGross>
+              </Totals>
+            </BoQCtgy>
           </BoQBody>
           <Totals>
             <Total>56750</Total>

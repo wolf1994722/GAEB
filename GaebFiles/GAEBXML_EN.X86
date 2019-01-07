@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--Created with Dangl GAEB Tool, Copyright 2013 - 2018 Georg Dangl, www.dangl-it.com, Version 1.4.15.0 (Built: 11.01.2018 16:13)-->
-<GAEB xmlns="http://www.gaeb.de/GAEB_DA_XML/DA80/3.2">
+<!--Created with Dangl GAEB Tool, Copyright 2013 - 2019 Dangl IT GmbH, www.dangl-it.com, Version 1.6.1 (Built: 02.01.2019 20:25)-->
+<GAEB xmlns="http://www.gaeb.de/GAEB_DA_XML/DA86/3.2">
   <GAEBInfo>
     <Version>3.2</Version>
     <VersDate>2013-10</VersDate>
-    <Date>2018-02-17</Date>
-    <Time>11:07:02</Time>
-    <ProgSystem>Dangl GAEB Tool - www.dangl-it.com - Version 1.4.15.0</ProgSystem>
-    <ProgName>Dangl.AVA.Converter www.dangl-it.com V1.4.17.0 ©2018</ProgName>
+    <Date>2019-01-07</Date>
+    <Time>19:36:18</Time>
+    <ProgSystem>Dangl GAEB Tool - www.dangl-it.com - Version 1.6.1</ProgSystem>
+    <ProgName>Dangl.AVA.Converter www.dangl-it.com V2.0.1 ©2019</ProgName>
   </GAEBInfo>
   <PrjInfo>
     <NamePrj>Pavillon</NamePrj>
@@ -15,9 +15,9 @@
     <CurLbl>Euro</CurLbl>
   </PrjInfo>
   <Award>
-    <DP>80</DP>
+    <DP>86</DP>
     <AwardInfo>
-      <BoQID>6651ee18-6162-4a16-9c62-7aa1e40485d0</BoQID>
+      <BoQID>73ad33a0-1714-467c-9343-28ebe8e59775</BoQID>
       <Cur>€</Cur>
       <CurLbl>Euro</CurLbl>
     </AwardInfo>
@@ -30,9 +30,9 @@
         <Email>info@dangl-it.com</Email>
       </Address>
     </OWN>
-    <BoQ ID="ID_5dfa2b5e-e182-481f-ac4d-d964daabd743">
+    <BoQ ID="ID_bbc7e6c6-d077-42e6-8c27-b002d928dd8b">
       <BoQInfo>
-        <Date>2018-02-17</Date>
+        <Date>2019-01-07</Date>
         <OutlCompl>AllTxt</OutlCompl>
         <BoQBkdn>
           <Type>BoQLevel</Type>
@@ -66,7 +66,7 @@
         </Totals>
       </BoQInfo>
       <BoQBody>
-        <Remark ID="ID_8476b190-8ed5-4eed-ab57-53d80b9ec87d">
+        <Remark ID="ID_0614c8ea-29c5-468c-b840-e1887e980e88">
           <Description>
             <CompleteText>
               <ComplTSA>No</ComplTSA>
@@ -87,18 +87,18 @@
             </CompleteText>
           </Description>
         </Remark>
-        <BoQCtgy ID="ID_29ab09e2-957c-4a71-982f-f4a06bd0546e" RNoPart="01">
+        <BoQCtgy ID="ID_1b407962-23ca-4ade-9c5f-95bdcdb51555" RNoPart="01">
           <LblTx>
             <span>Main Building</span>
           </LblTx>
           <BoQBody>
-            <BoQCtgy ID="ID_9af598da-c3d3-4661-aaa6-033c7b28cc13" RNoPart="01">
+            <BoQCtgy ID="ID_e7db91a0-c0e1-4209-9461-c2d3290d9b44" RNoPart="01">
               <LblTx>
                 <span>General</span>
               </LblTx>
               <BoQBody>
                 <Itemlist>
-                  <Item ID="ID_f5c262df-1be9-42b0-94b9-62fc969607c2" RNoPart="001">
+                  <Item ID="ID_1fd5933b-f96d-4e0d-85f9-6fbf477b24a5" RNoPart="001">
                     <Qty>1</Qty>
                     <QU>Flat</QU>
                     <UP>800</UP>
@@ -150,120 +150,138 @@
             <TotalGross>952.00</TotalGross>
           </Totals>
         </BoQCtgy>
-        <BoQCtgy ID="ID_3b82192c-0212-4eee-870b-36833c193279" RNoPart="02">
+        <BoQCtgy ID="ID_999e236f-ff66-4363-b563-24a4f092f0d5" RNoPart="02">
           <LblTx>
-            <span>Construction</span>
+            <span>Services</span>
           </LblTx>
           <BoQBody>
-            <Itemlist>
-              <Item ID="ID_4c718e02-7d35-4784-bf74-123a7c2b16ed" RNoPart="02" RNoIndex="1">
-                <Qty>950</Qty>
-                <QU>m³</QU>
-                <UP>9</UP>
-                <IT>8550</IT>
-                <Description>
-                  <CompleteText>
-                    <ComplTSA>No</ComplTSA>
-                    <ComplTSB>No</ComplTSB>
-                    <DetailTxt>
-                      <Text>
-                        <span>Excavation for the building pit.</span>
-                      </Text>
-                    </DetailTxt>
-                    <OutlineText>
-                      <OutlTSA>No</OutlTSA>
-                      <OutlTxt>
-                        <TextOutlTxt>
-                          <span>Excavation</span>
-                        </TextOutlTxt>
-                      </OutlTxt>
-                    </OutlineText>
-                  </CompleteText>
-                </Description>
-              </Item>
-              <Item ID="ID_b5e5a596-dcae-4017-b8c9-e7fb4e2ec07a" RNoPart="02" RNoIndex="2">
-                <Qty>600</Qty>
-                <QU>m³</QU>
-                <UP>6</UP>
-                <IT>3600</IT>
-                <Description>
-                  <CompleteText>
-                    <ComplTSA>No</ComplTSA>
-                    <ComplTSB>No</ComplTSB>
-                    <DetailTxt>
-                      <Text>
-                        <span>Filling of excavated building pit with proper material for foundation.</span>
-                      </Text>
-                    </DetailTxt>
-                    <OutlineText>
-                      <OutlTSA>No</OutlTSA>
-                      <OutlTxt>
-                        <TextOutlTxt>
-                          <span>Filling</span>
-                        </TextOutlTxt>
-                      </OutlTxt>
-                    </OutlineText>
-                  </CompleteText>
-                </Description>
-              </Item>
-              <Item ID="ID_3bcba6a8-9c1e-4040-a84e-66af1a86b8a5" RNoPart="02" RNoIndex="3">
-                <Qty>350</Qty>
-                <QU>m³</QU>
-                <UP>12</UP>
-                <IT>4200</IT>
-                <Description>
-                  <CompleteText>
-                    <ComplTSA>No</ComplTSA>
-                    <ComplTSB>No</ComplTSB>
-                    <DetailTxt>
-                      <Text>
-                        <span>Removal of unusable excavated soil from the construction site.</span>
-                      </Text>
-                    </DetailTxt>
-                    <OutlineText>
-                      <OutlTSA>No</OutlTSA>
-                      <OutlTxt>
-                        <TextOutlTxt>
-                          <span>Soil Removal</span>
-                        </TextOutlTxt>
-                      </OutlTxt>
-                    </OutlineText>
-                  </CompleteText>
-                </Description>
-              </Item>
-              <Item ID="ID_69d4864b-04da-4240-8144-98c570ddd426" RNoPart="02" RNoIndex="4">
-                <Qty>800</Qty>
-                <QU>m²</QU>
-                <UP>40</UP>
-                <IT>32000</IT>
-                <Description>
-                  <OutlineText>
-                    <OutlTSA>No</OutlTSA>
-                    <OutlTxt>
-                      <TextOutlTxt>
-                        <span>Conrete Slabs</span>
-                      </TextOutlTxt>
-                    </OutlTxt>
-                  </OutlineText>
-                </Description>
-              </Item>
-              <Item ID="ID_e0b706eb-18d9-416b-97a1-eef27807313c" RNoPart="02" RNoIndex="5">
-                <Qty>240</Qty>
-                <QU>m²</QU>
-                <UP>35</UP>
-                <IT>8400</IT>
-                <Description>
-                  <OutlineText>
-                    <OutlTSA>No</OutlTSA>
-                    <OutlTxt>
-                      <TextOutlTxt>
-                        <span>Concrete Walls</span>
-                      </TextOutlTxt>
-                    </OutlTxt>
-                  </OutlineText>
-                </Description>
-              </Item>
-            </Itemlist>
+            <BoQCtgy ID="ID_b5f14aa0-70f0-4881-bd1b-4962653d3675" RNoPart="02">
+              <LblTx>
+                <span>Construction</span>
+              </LblTx>
+              <BoQBody>
+                <Itemlist>
+                  <Item ID="ID_d9cf460c-d48b-465f-860e-e29ccba21782" RNoPart="001">
+                    <Qty>950</Qty>
+                    <QU>m³</QU>
+                    <UP>9</UP>
+                    <IT>8550</IT>
+                    <Description>
+                      <CompleteText>
+                        <ComplTSA>No</ComplTSA>
+                        <ComplTSB>No</ComplTSB>
+                        <DetailTxt>
+                          <Text>
+                            <span>Excavation for the building pit.</span>
+                          </Text>
+                        </DetailTxt>
+                        <OutlineText>
+                          <OutlTSA>No</OutlTSA>
+                          <OutlTxt>
+                            <TextOutlTxt>
+                              <span>Excavation</span>
+                            </TextOutlTxt>
+                          </OutlTxt>
+                        </OutlineText>
+                      </CompleteText>
+                    </Description>
+                  </Item>
+                  <Item ID="ID_bda0a6e7-9b1f-42e8-a1a8-3f8bd5e1fc3c" RNoPart="002">
+                    <Qty>600</Qty>
+                    <QU>m³</QU>
+                    <UP>6</UP>
+                    <IT>3600</IT>
+                    <Description>
+                      <CompleteText>
+                        <ComplTSA>No</ComplTSA>
+                        <ComplTSB>No</ComplTSB>
+                        <DetailTxt>
+                          <Text>
+                            <span>Filling of excavated building pit with proper material for foundation.</span>
+                          </Text>
+                        </DetailTxt>
+                        <OutlineText>
+                          <OutlTSA>No</OutlTSA>
+                          <OutlTxt>
+                            <TextOutlTxt>
+                              <span>Filling</span>
+                            </TextOutlTxt>
+                          </OutlTxt>
+                        </OutlineText>
+                      </CompleteText>
+                    </Description>
+                  </Item>
+                  <Item ID="ID_3727ab90-9465-46d7-934e-fdd0a5f03253" RNoPart="003">
+                    <Qty>350</Qty>
+                    <QU>m³</QU>
+                    <UP>12</UP>
+                    <IT>4200</IT>
+                    <Description>
+                      <CompleteText>
+                        <ComplTSA>No</ComplTSA>
+                        <ComplTSB>No</ComplTSB>
+                        <DetailTxt>
+                          <Text>
+                            <span>Removal of unusable excavated soil from the construction site.</span>
+                          </Text>
+                        </DetailTxt>
+                        <OutlineText>
+                          <OutlTSA>No</OutlTSA>
+                          <OutlTxt>
+                            <TextOutlTxt>
+                              <span>Soil Removal</span>
+                            </TextOutlTxt>
+                          </OutlTxt>
+                        </OutlineText>
+                      </CompleteText>
+                    </Description>
+                  </Item>
+                  <Item ID="ID_7789aa2e-5a9c-4edf-b345-b9bbb89695eb" RNoPart="004">
+                    <Qty>800</Qty>
+                    <QU>m²</QU>
+                    <UP>40</UP>
+                    <IT>32000</IT>
+                    <Description>
+                      <OutlineText>
+                        <OutlTSA>No</OutlTSA>
+                        <OutlTxt>
+                          <TextOutlTxt>
+                            <span>Conrete Slabs</span>
+                          </TextOutlTxt>
+                        </OutlTxt>
+                      </OutlineText>
+                    </Description>
+                  </Item>
+                  <Item ID="ID_ebcf2e58-b175-4a43-bfba-e3a0959b59da" RNoPart="005">
+                    <Qty>240</Qty>
+                    <QU>m²</QU>
+                    <UP>35</UP>
+                    <IT>8400</IT>
+                    <Description>
+                      <OutlineText>
+                        <OutlTSA>No</OutlTSA>
+                        <OutlTxt>
+                          <TextOutlTxt>
+                            <span>Concrete Walls</span>
+                          </TextOutlTxt>
+                        </OutlTxt>
+                      </OutlineText>
+                    </Description>
+                  </Item>
+                </Itemlist>
+              </BoQBody>
+              <Totals>
+                <Total>56750</Total>
+                <VAT>19.00</VAT>
+                <TotalNet>56750</TotalNet>
+                <VATPart VATPcnt="19.00">
+                  <TotalNetPart>56750</TotalNetPart>
+                  <VATAmount>10782.50</VATAmount>
+                </VATPart>
+                <VATAmount>10782.50</VATAmount>
+                <TotalGross>67532.50</TotalGross>
+              </Totals>
+            </BoQCtgy>
           </BoQBody>
           <Totals>
             <Total>56750</Total>
