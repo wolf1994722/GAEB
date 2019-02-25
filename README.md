@@ -19,6 +19,21 @@ These packages are not included in this repository.
 This project is intended to demonstrate the usage of the Dangl.AVA and Dangl.GAEB libraries.
 [Please get in touch with me if you are interested in the libraries](https://www.dangl-it.com/contact/?message=I%27m+interested+in+Dangl.GAEB+%26+Dangl.AVA.+Please+contact+me.).
 
+## .NET Core support
+
+All modules for GAEB, Oenorm, Excel and other formats support both .NET Framework as well as .NET Core. This project produces .NET Framework libraries by default. If you want to build for .NET Core,
+you have to update the framework in the project settings or simply change the `TargetFramework` entry in `Dangl.AVA.Examples.csproj` and `Dangl.AVA.Example.Tests.csproj`:
+
+```xml
+<PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <!-- This configures the project to build for .NET Framework 4.6.1 -->
+    <TargetFramework>net461</TargetFramework>
+    <!-- To build for .NET Core (2.2 in this case), simply use the value below -->
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+```
+
 ## CLI Interface
 
 The console application is launched via
