@@ -102,7 +102,7 @@ namespace Dangl.AVA.Examples
             using (var gaebStream = GAEB.Writer.GAEBWriter.GetStream(convertedGaebFile, includeBrandingComment: !_options.ExcludeBranding))
             {
                 var exchangePhase = _readProject.ServiceSpecifications.First().ExchangePhase;
-                var fileEnding = GaebFileEndingFactory.GetFileEndingForGaebFile(convertedGaebFile, exchangePhase);
+                var fileEnding = convertedGaebFile.GetFileExtension();
                 var outputPath = Path.GetFullPath(_options.OutputFilePath + fileEnding);
                 using (var fileStream = File.Create(outputPath))
                 {
