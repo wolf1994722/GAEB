@@ -98,11 +98,11 @@ namespace Dangl.AVA.Examples
         private void TransformToGaeb()
         {
             var gaebVersion = MapOptionsToGaebDestination();
-            var convertedProject = Converter.Converter.ConvertToGaeb(_readProject, destinationType: gaebVersion);
-            using (var gaebStream = GAEB.Writer.GAEBWriter.GetStream(convertedProject, includeBrandingComment: !_options.ExcludeBranding))
+            var convertedGaebFile = Converter.Converter.ConvertToGaeb(_readProject, destinationType: gaebVersion);
+            using (var gaebStream = GAEB.Writer.GAEBWriter.GetStream(convertedGaebFile, includeBrandingComment: !_options.ExcludeBranding))
             {
                 var exchangePhase = _readProject.ServiceSpecifications.First().ExchangePhase;
-                var fileEnding = GaebFileEndingFactory.GetFileEndingForGaebFile(convertedProject, exchangePhase);
+                var fileEnding = GaebFileEndingFactory.GetFileEndingForGaebFile(convertedGaebFile, exchangePhase);
                 var outputPath = Path.GetFullPath(_options.OutputFilePath + fileEnding);
                 using (var fileStream = File.Create(outputPath))
                 {
