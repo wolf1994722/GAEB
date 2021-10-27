@@ -8,10 +8,10 @@
 
   <ItemGroup>
     <PackageReference Include="CommandLineParser" Version="2.3.0" />
-    <PackageReference Include="Dangl.AVA" Version="2.3.3" />
-    <PackageReference Include="Dangl.AVA.Converter" Version="2.5.3" />
-    <PackageReference Include="Dangl.AVA.Converter.Excel" Version="2.4.0" />
-    <PackageReference Include="Dangl.GAEB" Version="2.1.5" />
+    <PackageReference Include="Dangl.AVA" Version="2.8.0" />
+    <PackageReference Include="Dangl.AVA.Converter" Version="2.8.0" />
+    <PackageReference Include="Dangl.AVA.Converter.Excel" Version="2.6.4" />
+    <PackageReference Include="Dangl.GAEB" Version="2.3.3" />
   </ItemGroup>
 
 </Project>
