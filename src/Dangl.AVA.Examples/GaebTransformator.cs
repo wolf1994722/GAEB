@@ -101,7 +101,6 @@ namespace Dangl.AVA.Examples
             var convertedGaebFile = Converter.Converter.ConvertToGaeb(_readProject, destinationType: gaebVersion);
             using (var gaebStream = GAEB.Writer.GAEBWriter.GetStream(convertedGaebFile, includeBrandingComment: !_options.ExcludeBranding))
             {
-                var exchangePhase = _readProject.ServiceSpecifications.First().ExchangePhase;
                 var fileEnding = convertedGaebFile.GetFileExtension();
                 var outputPath = Path.GetFullPath(_options.OutputFilePath + fileEnding);
                 using (var fileStream = File.Create(outputPath))
