@@ -1,7 +1,6 @@
 # Dangl.AVA.Examples
 
 > An online version of the converter is freely accessible at [my blog](https://blog.dangl.me/gaeb-converter/)  
-> A more detailed feature description is available [on my website](https://www.dangl-it.com/products/gaeb-ava-net-library/).
 
 > This project requires **Visual Studio 2017** or newer. Otherwise, the Dotnet CLI is also supported. For **Visual Studio 2013**
 > and **Visual Studio 2015**, please see the [vs2013 branch](https://github.com/GeorgDangl/Dangl.AVA.Examples/tree/vs2013).
@@ -69,7 +68,3 @@ all three formats - GAEB 90, GAEB 2000 and GAEB XML.
 * Advanced heuristics allow the preservation of most information even when converting to an earlier version of the GAEB standard
 * Complete `INotifyPropertyChanged` support in **Dangl.AVA** and event driven messaging makes it directly usable in front end applications - Set the price of an item and the whole bill of quantity is automatically updated
 * Over **175.000** tests are run automatically on every commit. The tests cover 7 frameworks (both full .Net and .Net Core) and over 200 GAEB files
-
-## Structure
-
-![Library Structure](docs/structure.png)
