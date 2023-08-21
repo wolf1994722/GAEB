@@ -3,9 +3,7 @@
 This is a _demonstration_ library intended to show the usage of the Dangl.AVA and Dangl.GAEB projects.
 To build this solution, you need to copy four packages into the `./packages` folder, relative to the root of this project:
 * Dangl.AVA
-* Dangl.GAEB
-* Dangl.AVA.Converter
-* Dangl.AVA.Converter.Excel
+- Dangl.GAEB
 
 > If you are already a customer with support contract, please see any of the packages documentation on how to set up the official NuGet feed for **DanglIT** packages.
 
